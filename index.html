@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Clinic Virtual Receptionist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+  <header>
+    <h1>Virtual Receptionist</h1>
+    <span id="whoami" class="tag">not logged in</span>
+    <a class="admin-link" href="/admin">admin</a>
+  </header>
+
+  <main>
+    <aside class="sidebar">
+      <h2>Patient login</h2>
+      <p class="muted">
+        Needed for lab results, cancelling, or checking your bookings.<br/>
+        Try <b>P002 / test1234</b>.
+      </p>
+      <form id="login-form">
+        <label>Patient no.<input name="patient_no" required autocomplete="off"/></label>
+        <label>Password<input name="password" type="password" required /></label>
+        <button type="submit">Log in</button>
+        <button type="button" id="logout" class="secondary">Log out</button>
+      </form>
+
+      <h2>Try asking</h2>
+      <ul class="examples">
+        <li>Hello!</li>
+        <li>What are your opening hours?</li>
+        <li>I'd like to book an appointment with Dr Aisha Khan tomorrow at 10 am. My name is Ayesha Khan.</li>
+        <li>Are my lab results ready?</li>
+        <li>Do you accept insurance?</li>
+        <li>When is my next appointment?</li>
+      </ul>
+    </aside>
+
+    <section class="chat">
+      <div id="messages" class="messages"></div>
+      <form id="chat-form">
+        <input id="msg" name="msg" autocomplete="off" placeholder="Type your message..." required />
+        <button type="submit">Send</button>
+      </form>
+      <div class="debug" id="debug"></div>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>

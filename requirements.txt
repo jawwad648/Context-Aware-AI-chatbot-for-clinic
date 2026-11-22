@@ -1,0 +1,9 @@
+Flask==3.0.3
+Flask-Session==0.8.0
+sentence-transformers==2.7.0
+scikit-learn==1.4.2
+numpy==1.26.4
+python-dateutil==2.9.0
+dateparser==1.2.0
+SQLAlchemy==2.0.30
+bcrypt==4.1.3

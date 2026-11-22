@@ -1,0 +1,77 @@
+[
+  {
+    "question": "What are your opening hours?",
+    "answer": "The clinic is open Monday to Friday from 8:00 am to 8:00 pm, and Saturday from 9:00 am to 2:00 pm. We are closed on Sundays and public holidays.",
+    "tags": ["hours", "timing"]
+  },
+  {
+    "question": "Where is the clinic located?",
+    "answer": "We are located at 42 High Street, Al Khoudh, Muscat. Parking is available on site and the building is wheelchair accessible.",
+    "tags": ["location", "address"]
+  },
+  {
+    "question": "How do I contact the clinic by phone?",
+    "answer": "You can reach reception on +968 2444 1000, or email info@clinic.example.com. For emergencies please dial the local emergency number.",
+    "tags": ["contact", "phone"]
+  },
+  {
+    "question": "Do you accept insurance?",
+    "answer": "Yes - we accept most major insurers including Axa, Bupa, MedNet, GIG Gulf and NextCare. Please bring your insurance card and a photo ID to your visit.",
+    "tags": ["insurance", "payment"]
+  },
+  {
+    "question": "How much does a consultation cost?",
+    "answer": "A standard consultation is 15 OMR for general practice and 25 OMR for specialists. Follow-up visits within two weeks are discounted.",
+    "tags": ["cost", "price", "fees"]
+  },
+  {
+    "question": "What services do you offer?",
+    "answer": "We offer general practice, paediatrics, cardiology, dermatology, gynaecology, orthopaedics, ENT, ophthalmology, on-site laboratory tests, vaccinations and minor surgery.",
+    "tags": ["services"]
+  },
+  {
+    "question": "Do I need an appointment or can I walk in?",
+    "answer": "Walk-ins are welcome for general practice between 10 am and 4 pm but may involve a wait. For specialists an appointment is required.",
+    "tags": ["walk-in", "appointment"]
+  },
+  {
+    "question": "How do I cancel or reschedule an appointment?",
+    "answer": "You can cancel or reschedule here in chat (just tell me the date), through our website, or by calling reception. Please give at least 24 hours' notice where possible.",
+    "tags": ["cancel", "reschedule"]
+  },
+  {
+    "question": "When will my lab results be ready?",
+    "answer": "Most routine blood tests are ready within 24-48 hours. More specialised tests may take 3-7 working days. You can check the status here in chat once you are logged in.",
+    "tags": ["lab", "results"]
+  },
+  {
+    "question": "Do you offer vaccinations?",
+    "answer": "Yes. We provide routine childhood immunisations, seasonal influenza, travel vaccines, and COVID-19 boosters. Please book an appointment with general practice.",
+    "tags": ["vaccine", "immunisation"]
+  },
+  {
+    "question": "Is there parking at the clinic?",
+    "answer": "Yes, free on-site parking is available for patients and visitors, including accessible parking bays near the main entrance.",
+    "tags": ["parking"]
+  },
+  {
+    "question": "Do you treat children?",
+    "answer": "Absolutely. Dr Priya Menon leads our paediatrics department and sees patients from birth up to 16 years.",
+    "tags": ["paediatrics", "children"]
+  },
+  {
+    "question": "What should I bring to my first visit?",
+    "answer": "Please bring a photo ID, your insurance card (if any), a list of current medications, and any previous medical reports relevant to your visit.",
+    "tags": ["first visit", "preparation"]
+  },
+  {
+    "question": "Do you offer telemedicine / online consultations?",
+    "answer": "Yes. We offer video consultations for follow-up visits and common primary care concerns. Ask reception or request it when booking.",
+    "tags": ["telemedicine", "online"]
+  },
+  {
+    "question": "Is my medical data kept private?",
+    "answer": "Yes. All patient records are confidential and handled in line with data protection regulations. Information is only shared with your explicit consent.",
+    "tags": ["privacy", "data"]
+  }
+]

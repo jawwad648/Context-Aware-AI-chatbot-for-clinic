@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Clinic Admin</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+  <header>
+    <h1>Reception Admin</h1>
+    <a class="admin-link" href="/">back to chat</a>
+  </header>
+  <main class="admin">
+    <section>
+      <h2>Doctors ({{ doctors|length }})</h2>
+      <table>
+        <thead><tr><th>Name</th><th>Specialty</th><th>Room</th></tr></thead>
+        <tbody>
+        {% for d in doctors %}
+          <tr><td>{{ d.name }}</td><td>{{ d.specialty }}</td><td>{{ d.room }}</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Appointments ({{ appointments|length }})</h2>
+      <table>
+        <thead><tr><th>#</th><th>When</th><th>Patient</th><th>Doctor</th><th>Status</th></tr></thead>
+        <tbody>
+        {% for a in appointments %}
+          <tr>
+            <td>{{ a.id }}</td>
+            <td>{{ a.scheduled }}</td>
+            <td>{{ a.patient }}</td>
+            <td>{{ a.doctor }}</td>
+            <td>{{ a.status }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
